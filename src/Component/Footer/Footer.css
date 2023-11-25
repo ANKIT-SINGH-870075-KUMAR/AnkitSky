@@ -1,0 +1,81 @@
+.FooterContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vmax;
+}
+
+.FooterContainer .foot1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FooterContainer .foot2{
+    flex-direction: row;
+}
+
+.FooterContainer .foot1 h1{
+    font-size: 45px;
+}
+
+.FooterContainer .foot1 p{
+    padding: 1vmax;
+    font: 300 1.1vmax sans-serif;
+    text-align: center;
+    width: 40%;
+    line-height: 2vmax;
+}
+
+.FooterContainer .foot1 ul{
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .FooterContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 2vmax;
+    }
+    
+    .FooterContainer .foot1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .FooterContainer .foot2{
+        flex-direction: column;
+    }
+    
+    .FooterContainer .foot1 h1{
+        font-size: 24px;
+    }
+    
+    .FooterContainer .foot1 p{
+        padding: 1vmax;
+        font: 300 1.5vmax sans-serif;
+        text-align: center;
+        width: 80%;
+        line-height: 2vmax;
+    }
+    
+    .FooterContainer .foot1 ul{
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }    
+}

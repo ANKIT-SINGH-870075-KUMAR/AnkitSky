@@ -1,0 +1,357 @@
+.bannerContainer{
+    padding: 2vmax;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    height: 700px;
+}
+
+.bannerContainer .banner-left, .bannerContainer .banner-right{
+    width: 50%;
+    display: flex;
+    height: 600px;
+}
+
+.bannerContainer .banner-left{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 400px;
+    margin-left: 2vmax;
+}
+
+.bannerContainer .banner-left h5{
+    font: 600 1.3vmax sans-serif;
+    padding: 0.3vmax;
+}
+
+.bannerContainer .banner-left h1{
+    font: 600 5vmax sans-serif;
+    padding: 0.3vmax;
+}
+
+.bannerContainer .banner-left p{
+    font: 300 1.1vmax sans-serif;
+    word-spacing: 0.5vmax;
+    line-height: 2vmax;
+    padding: 1vmax;
+}
+
+.bannerContainer .banner-left button{
+    margin-left: 0.3vmax;
+    padding: 1vmax 2vmax;
+    background-color: orange;
+    border: 0;
+    outline: 0;
+    color: white;
+    border-radius: 30px;
+    font: 600 16px sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.bannerContainer .banner-right{
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1vmax;
+}
+
+.bannerContainer .banner-right img{
+    width: 500px;
+}
+
+.elipse1{
+    transform: translateX(650px);
+    position: absolute;
+}
+
+.elipse1 .eli1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    background: conic-gradient(red 60deg, white 60deg);
+}
+
+.elipse1 .eli2{
+    border-radius: 50%;
+    background: white;
+    height: 100px;
+    width: 100px;
+}
+
+.elipse2{
+    transform: translateY(-260px) translateX(50px);
+    position: absolute;
+}
+
+.elipse2 .eli1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: conic-gradient(white 270deg, red 90deg);
+}
+
+.elipse2 .eli2{
+    border-radius: 50%;
+    background: white;
+    height: 60px;
+    width: 60px;
+}
+
+.circle1{
+    transform: translateY(300px) translateX(1000px);
+    position: absolute;
+}
+
+.circle1 .cir1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: rgb(165, 224, 165);
+}
+
+.circle1 .cir2{
+    border-radius: 50%;
+    background: white;
+    height: 20px;
+    width: 20px;
+}
+
+.circle2{
+    transform: translateY(200px) translateX(700px);
+    position: absolute;
+}
+
+.circle2 .cir1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    background: black;
+}
+
+.circle2 .cir2{
+    border-radius: 50%;
+    background: white;
+    height: 5px;
+    width: 5px;
+}
+
+.quatercircle{
+    transform: translateY(200px) translateX(300px);
+    position: absolute;
+}
+
+.quatercircle .qc1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: conic-gradient(orange 90deg, white 90deg);;
+}
+
+.quatercircle .qc2{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .bannerContainer{
+        padding: 2vmax;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        background: white;
+        height: 580px;
+    }
+    
+    .bannerContainer .banner-left, .bannerContainer .banner-right{
+        width: 80%;
+        display: flex;
+        height: 400px;
+    }
+    
+    .bannerContainer .banner-left{
+        margin-top: 2vmax;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 400px;
+        margin-left: 0vmax;
+    }
+    
+    .bannerContainer .banner-left h5{
+        font: 600 2vmax sans-serif;
+        padding: 0.3vmax;
+    }
+    
+    .bannerContainer .banner-left h1{
+        font: 600 4vmax sans-serif;
+        padding: 0.3vmax;
+    }
+    
+    .bannerContainer .banner-left p{
+        font: 300 1.5vmax sans-serif;
+        text-align: center;
+        word-spacing: 0.5vmax;
+        line-height: 2vmax;
+        padding: 1vmax;
+    }
+    
+    .bannerContainer .banner-left button{
+        margin-left: 0vmax;
+        padding: 1.7vmax 4vmax;
+        background-color: orange;
+        border: 0;
+        outline: 0;
+        color: white;
+        border-radius: 30px;
+        font: 600 16px sans-serif;
+    }
+    
+    button:hover{
+        cursor: pointer;
+    }
+    
+    
+    .bannerContainer .banner-right{
+        justify-content: center;
+        align-items: flex-end;
+        padding: 1vmax;
+    }
+    
+    .bannerContainer .banner-right img{
+        width: 250px;
+    }
+    
+    .elipse1{
+        transform: translateY(-200px) translateX(120px);
+        position: absolute;
+    }
+    
+    .elipse1 .eli1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        background: conic-gradient(red 80deg, white 80deg);
+    }
+    
+    .elipse1 .eli2{
+        border-radius: 50%;
+        background: white;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .elipse2{
+        transform: translateY(-450px) translateX(-130px);
+        position: absolute;
+    }
+    
+    .elipse2 .eli1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        background: conic-gradient(white 270deg, red 90deg);
+    }
+    
+    .elipse2 .eli2{
+        border-radius: 50%;
+        background: white;
+        height: 40px;
+        width: 40px;
+    }
+    
+    .circle1{
+        transform: translateY(-280px) translateX(-140px);
+        position: absolute;
+    }
+    
+    .circle1 .cir1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background: rgb(165, 224, 165);
+    }
+    
+    .circle1 .cir2{
+        border-radius: 50%;
+        background: white;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .circle2{
+        transform: translateY(-150px) translateX(-140px);
+        position: absolute;
+    }
+    
+    .circle2 .cir1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15px;
+        height: 15px;
+        background: black;
+    }
+    
+    .circle2 .cir2{
+        border-radius: 50%;
+        background: white;
+        height: 5px;
+        width: 5px;
+    }
+    
+    .quatercircle{
+        transform: translateY(-100px) translateX(140px);
+        position: absolute;
+    }
+    
+    .quatercircle .qc1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background: conic-gradient(orange 90deg, white 90deg);;
+    }
+    
+    .quatercircle .qc2{
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+    }
+    
+}

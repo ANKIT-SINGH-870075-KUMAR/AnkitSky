@@ -1,0 +1,362 @@
+.StudentContainer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vmax;
+}
+
+.StudentContainer .Student_left, .StudentContainer .Student_img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Student_left .right_box{
+    width: 80%;
+    padding: 2vmax;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Student_img{
+    padding-bottom: 40px;
+    z-index: 10;
+}
+
+.Student_img img{
+    width: 400px;
+}
+
+.right_box .right_heading, .right_box .right_para, .right_box .right_list, .right_box .right_button{
+    padding: 0.3vmax;
+}
+
+.right_heading h1{
+    font: 600 37px sans-serif;
+}
+
+.right_para p{
+    font: 600 14px sans-serif;
+}
+
+.right_list ul{
+    padding-left: 1.5vmax;
+}
+
+.right_list ul li{
+    padding: 0.3vmax;
+    font: 400 15px sans-serif;
+}
+
+
+.right_button button{
+    padding: 1vmax 2vmax;
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    font: 600 14px sans-serif;
+    outline: none;
+    border: 0;
+}
+
+.right_button button:hover{
+    cursor: pointer;
+}
+
+.student1{
+    transform: translateX(550px);
+    position: absolute;
+}
+
+.elipse1 .eli1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    background: conic-gradient(red 60deg, white 60deg);
+}
+
+.elipse1 .eli2{
+    border-radius: 50%;
+    background: white;
+    height: 100px;
+    width: 100px;
+}
+
+.student2{
+    transform: translateY(-160px) translateX(50px);
+    position: absolute;
+}
+
+.elipse2 .eli1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: conic-gradient(white 270deg, red 90deg);
+}
+
+.elipse2 .eli2{
+    border-radius: 50%;
+    background: white;
+    height: 60px;
+    width: 60px;
+}
+
+.student3{
+    transform: translateY(200px) translateX(1200px);
+    position: absolute;
+}
+
+.student3 .cir1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background: rgb(165, 224, 165);
+}
+
+.student3 .cir2{
+    border-radius: 50%;
+    background: white;
+    height: 70px;
+    width: 70px;
+}
+
+.student4{
+    transform: translateY(-150px) translateX(400px);
+    position: absolute;
+}
+
+.student4 .cir1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: black;
+}
+
+.student4 .cir2{
+    border-radius: 50%;
+    background: white;
+    height: 40px;
+    width: 40px;
+}
+
+.student5{
+    transform: translateY(200px) translateX(300px);
+    position: absolute;
+}
+
+.quatercircle .qc1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: conic-gradient(orange 90deg, white 90deg);;
+}
+
+.quatercircle .qc2{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .StudentContainer{
+        width: 100%;
+        height: 830px;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vmax;
+    }
+    
+    .StudentContainer .Explore_left, .StudentContainer .Student_left{
+        margin-top: 12px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Student_img{
+        padding-bottom: 20px;
+    }
+
+    .Student_img img{
+        width: 300px;
+    }
+    
+    .Student_left .right_box{
+        width: 100%;
+        padding: 2vmax;
+        height: 350px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .right_box .right_heading, .right_box .right_para, .right_box .right_list, .right_box .right_button{
+        padding: 0.5vmax;
+    }
+    
+    .right_heading h1{
+        font: 600 35px sans-serif;
+    }
+    
+    .right_para p{
+        font: 600 14px sans-serif;
+    }
+    
+    .right_list ul{
+        padding-left: 5vmax;
+    }
+    
+    .right_list ul li{
+        padding: 0.5vmax;
+        font: 400 16px sans-serif;
+    }
+    
+    
+    .right_button button{
+        padding: 2vmax 4vmax;
+        background-color: orange;
+        color: white;
+        border-radius: 30px;
+        font: 600 14px sans-serif;
+        outline: none;
+        border: 0;
+    }
+    
+    .right_button button:hover{
+        cursor: pointer;
+    }
+    
+    .student1{
+        transform: translateY(-650px) translateX(100px);
+        position: absolute;
+    }
+    
+    .elipse1 .eli1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 130px;
+        background: conic-gradient(red 60deg, white 60deg);
+    }
+    
+    .elipse1 .eli2{
+        border-radius: 50%;
+        background: white;
+        height: 100px;
+        width: 100px;
+    }
+    
+    .student2{
+        transform: translateY(-550px) translateX(-100px);
+        position: absolute;
+    }
+    
+    .elipse2 .eli1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        background: conic-gradient(white 270deg, red 90deg);
+    }
+    
+    .elipse2 .eli2{
+        border-radius: 50%;
+        background: white;
+        height: 60px;
+        width: 60px;
+    }
+    
+    .student3{
+        transform: translateY(-350px) translateX(100px);
+        position: absolute;
+    }
+    
+    .student3 .cir1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height: 90px;
+        background: rgb(165, 224, 165);
+    }
+    
+    .student3 .cir2{
+        border-radius: 50%;
+        background: white;
+        height: 70px;
+        width: 70px;
+    }
+    
+    .student4{
+        transform: translateY(-150px) translateX(100px);
+        position: absolute;
+    }
+    
+    .student4 .cir1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        background: black;
+    }
+    
+    .student4 .cir2{
+        border-radius: 50%;
+        background: white;
+        height: 40px;
+        width: 40px;
+    }
+    
+    .student5{
+        transform: translateY(-320px) translateX(-150px);
+        position: absolute;
+    }
+    
+    .quatercircle .qc1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background: conic-gradient(orange 90deg, white 90deg);;
+    }
+    
+    .quatercircle .qc2{
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+    }    
+}

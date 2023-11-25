@@ -1,0 +1,140 @@
+.btn-bar{
+    display: none;
+}
+
+.navbar_container{
+    background-color: white;
+    width: 100%;
+    padding: 3vmax;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.nav-left{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-right{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-left .left-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-right .right-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-right .right-container button:first-child{
+    background: none;
+    color: gray;
+}
+
+.nav-right .right-container button{
+    padding: 0.6vmax 2vmax;
+    background-color: orange;
+    border: 0;
+    outline: 0;
+    color: white;
+    border-radius: 30px;
+    font: 400 16px sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .btn-bar{
+        background: 0;
+        border: 0;
+        outline: 0;
+        font-size: 30px;
+        display: flex;
+        padding: 2vmax;
+        align-items: center;
+    }
+
+    .btn-cross{
+        top: 10px;
+        left: 0;
+        position: absolute;
+        font-size: 23px;
+    }
+
+    .navbar_container{
+        background-color: white;
+        width: 100%;
+        padding: 0vmax;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 10vh;
+    }
+    
+    .nav-left{
+        background-color: yellow;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 50vh;
+        position: absolute;
+        padding: 2vmax;
+    }
+    
+    .nav-right{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav-left .left-container{
+        width: 90%;
+        height: 35vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .nav-right .right-container{
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .nav-right .right-container button:first-child{
+        background: none;
+        color: gray;
+    }
+    
+    .nav-right .right-container button{
+        padding: 2vmax 4vmax;
+        background-color: orange;
+        border: 0;
+        outline: 0;
+        color: white;
+        border-radius: 30px;
+        font: 400 16px sans-serif;
+    }
+        
+}
+
+
+

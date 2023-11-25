@@ -1,0 +1,108 @@
+.TestContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 2vmax;
+}
+
+.TestContainer .Test_head{
+    padding: 1vmax;
+}
+
+.TestContainer .Test_head h1{
+    font-size: 45px;
+}
+
+.TestContainer .Test_card{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.TestContainer .Test_card .card{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1vmax;
+}
+
+.card .Card_Img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vmax;
+}
+
+.card img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.Card_Info p{
+text-align: center;
+padding: 1vmax;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .TestContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2vmax;
+        /* height: 1000px; */
+        margin-top: 2vmax;
+    }
+    
+    .TestContainer .Test_head{
+        padding: 5vmax;
+    }
+    
+    .TestContainer .Test_head h1{
+        font-size: 45px;
+    }
+    
+    .TestContainer .Test_card{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .TestContainer .Test_card .card{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 1vmax;
+    }
+    
+    .card .Card_Img{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1vmax;
+    }
+    
+    .card img{
+        width: 100px;
+        border-radius: 50%;
+    }
+    
+    .Card_Info p{
+    text-align: center;
+    padding: 1vmax;
+    }
+        
+}

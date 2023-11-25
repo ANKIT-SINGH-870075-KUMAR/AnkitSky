@@ -1,0 +1,145 @@
+.destinationContainer{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vmax;
+}
+
+.destinationContainer .dest_head{
+    padding: 2vmax;
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+}
+
+.dest_head h1{
+    font-size: 45px;
+}
+
+.dest_card{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vmax;
+}
+
+.dest_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dbCard{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 10px 25px gray;
+    background-color: white;
+}
+
+.dbCard .db_Info{
+    width: 100%;
+    padding: 1vmax;
+}
+
+.db_Info h1{
+    font-size: 22px;
+}
+
+.db_Info h4{
+    padding-top: 0.4vmax;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dest_card img{
+    width: 286px;
+}
+
+.Infobox{
+    padding: 1vmax;
+    padding-left: 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .destinationContainer{
+        margin-top: 90px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1vmax;
+        height: 1600px;
+    }
+    
+    .destinationContainer .dest_head{
+        padding: 4vmax;
+        display: flex;
+        width: 90%;
+        justify-content: flex-start;
+    }
+    
+    .dest_head h1{
+        font-size: 28px;
+    }
+    
+    .dest_card{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2vmax;
+    }
+    
+    .dest_box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .dbCard{
+        width: 87%;
+        margin: 2vmax;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 30px;
+        box-shadow: 0 10px 25px gray;
+        background-color: white;
+    }
+    
+    .dbCard .db_Info{
+        width: 100%;
+        padding: 1vmax;
+    }
+    
+    .db_Info h1{
+        font-size: 22px;
+    }
+    
+    .db_Info h4{
+        padding-top: 0.4vmax;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .dest_card img{
+        width: 286px;
+    }
+    
+    .Infobox{
+        padding: 1vmax;
+        padding-left: 0;
+    }
+}
